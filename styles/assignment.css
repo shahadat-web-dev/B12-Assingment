@@ -1,6 +1,14 @@
 /* Google font */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
-.raleway-normal {
+
+
+
+.font-raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -9,6 +17,11 @@
 
 body {
   background-color: #F5F8FF;
+}
+
+main {
+  margin: 0 auto;
+  width: 1140px;
 }
 
 .header {
@@ -55,10 +68,12 @@ button:hover {
 
 
 /* action styles */
-
 .action {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+
 }
 
 .action-title {
@@ -72,5 +87,39 @@ button:hover {
   font-weight: 400;
   color: #25243280;
   margin-bottom: 23px;
+}
 
+.joined-thousands {
+  border-radius: 24px;
+  text-align: center;
+  background-color: #4E47FF1A;
+  padding: 50px 80px;
+  margin: 0 auto;
+}
+
+.num-container {
+  display: flex;
+  gap: 148px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+
+
+.title-join {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 700;
+  color: #4E47FF;
+}
+
+.join-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.join-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
 }
