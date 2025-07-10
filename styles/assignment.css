@@ -123,3 +123,47 @@ button:hover {
   font-weight: 400;
   color: #00000080;
 }
+
+
+/* What our users say */
+.user-title {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+}
+
+.say-title {
+  color: #1E1E1E;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.user-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1E1E1E;
+}
+
+.say-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+}
