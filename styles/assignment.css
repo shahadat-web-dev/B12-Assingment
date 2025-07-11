@@ -202,3 +202,44 @@ button:hover {
   font-weight: 400;
   margin-top: -20px;
 }
+
+
+/* Get in Touch styles */
+
+.touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 70px 0;
+}
+
+
+.touch-title {
+  font-family: Raleway;
+  font-size: 97px;
+  font-weight: 700;
+}
+
+.touch-description {
+  padding: 15px;
+  padding-right: 130px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+}
+
+input::placeholder, textarea {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-btn{
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #4E47FF;
+  padding: 20px 110px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
