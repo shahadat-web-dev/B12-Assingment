@@ -162,7 +162,7 @@ button:hover {
 }
 
 
-.say-container{
+.say-container {
   display: flex;
   gap: 20px;
   height: 40px;
@@ -175,4 +175,30 @@ button:hover {
   font-size: 16px;
   font-weight: 600;
   color: #757575;
+}
+
+/* ready-focus */
+.ready-focus {
+  background-color: white;
+  padding: 70px 150px;
+  margin-top: 137px;
+  border-radius: 14px;
+}
+
+.ready-title {
+  text-align: center;
+
+}
+
+.focus-title {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.focus-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -20px;
 }
