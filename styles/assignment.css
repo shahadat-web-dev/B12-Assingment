@@ -161,7 +161,16 @@ button:hover {
   color: #1E1E1E;
 }
 
+
+.say-container{
+  display: flex;
+  gap: 20px;
+  height: 40px;
+  align-items: center;
+}
+
 .say-description {
+  margin-bottom: 24px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
