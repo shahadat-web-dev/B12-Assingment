@@ -227,13 +227,14 @@ button:hover {
   border-radius: 10px;
 }
 
-input::placeholder, textarea {
+input::placeholder,
+textarea {
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
 }
 
-.form-btn{
+.form-btn {
   font-size: 16px;
   font-weight: 700;
   color: white;
@@ -242,4 +243,51 @@ input::placeholder, textarea {
   border: none;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+/* footer styles */
+.footer-container {
+  text-align: center;
+
+}
+
+
+
+footer {
+  background-color: white;
+  padding: 100px 450px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+
+.display-flex {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.footer-title {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+  
 }
